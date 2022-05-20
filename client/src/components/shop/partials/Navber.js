@@ -32,7 +32,7 @@ const Navber = (props) => {
       {/* Navber Section */}
       <nav className='fixed top-0 w-full z-20 shadow-lg lg:shadow-none bg-white'>
         <div
-          className='m-4 md:mx-12 md:my-6 nav-bar'
+          className='m-4 md:mx-12 md:my-4 nav-bar'
           style={{
             display: 'flex',
             flexDirection: 'row',
@@ -46,7 +46,7 @@ const Navber = (props) => {
               style={{ letterSpacing: '0.10rem' }}
               className='flex items-left text-center font-bold uppercase text-gray-800 text-2xl cursor-pointer px-2 text-center'
             >
-              Crimson Tech
+              <img src={'https://i.ibb.co/y88jN4z/Crimson-Tech-logo-1.png'} />
             </span>
           </div>
           <div
@@ -54,13 +54,13 @@ const Navber = (props) => {
             style={{ letterSpacing: '0.70rem' }}
             className='hidden lg:block flex items-left col-span-1 text-center text-gray-800 font-bold tracking-widest uppercase text-2xl cursor-pointer'
           >
-            Crimson Tech
+            <img src={'https://i.ibb.co/y88jN4z/Crimson-Tech-logo-1.png'} />
           </div>
           <div style={{ display: 'flex' }}>
             {/*  WishList Page Button */}
             <div
               onClick={(e) => history.push('/wish-list')}
-              className='hover:bg-gray-200 rounded-lg px-2 py-2 cursor-pointer'
+              className='hover:bg-gray-200 rounded-lg px-2 py-2 cursor-pointer  hvr-grow'
               title='Wishlist'
             >
               <svg
@@ -85,7 +85,7 @@ const Navber = (props) => {
             {localStorage.getItem('jwt') ? (
               <Fragment>
                 <div
-                  className='userDropdownBtn hover:bg-gray-200 px-2 py-2 rounded-lg relative'
+                  className='userDropdownBtn hover:bg-gray-200 px-2 py-2 rounded-lg relative hvr-grow' 
                   title='Logout'
                 >
                   <svg
@@ -309,7 +309,7 @@ const Navber = (props) => {
             {/* Cart Modal Button */}
             <div
               onClick={(e) => cartModalOpen()}
-              className='hover:bg-gray-200 px-2 py-2 rounded-lg relative cursor-pointer'
+              className='hover:bg-gray-200 px-2 py-2 rounded-lg relative cursor-pointer hvr-grow'
               title='Cart'
             >
               <svg

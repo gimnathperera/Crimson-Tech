@@ -66,7 +66,7 @@ const SingleProduct = (props) => {
                 <img
                   loading='lazy'
                   onClick={(e) => history.push(`/products/${item._id}`)}
-                  className='w-full object-cover object-center cursor-pointer'
+                  className='w-full object-cover object-center cursor-pointer hvr-float'
                   src={`${apiURL}/uploads/products/${item.pImages[0]}`}
                   alt=''
                 />
@@ -78,7 +78,7 @@ const SingleProduct = (props) => {
                     {item.pName}
                   </div>
                   <div className='flex items-center space-x-1'>
-                    <span>
+                    <span className='hvr-rotate'>
                       <svg
                         className='w-4 h-4 fill-current text-yellow-700'
                         fill='none'
@@ -101,7 +101,7 @@ const SingleProduct = (props) => {
                 </div>
                 <div>${item.pPrice}.00</div>
                 {/* WhisList Logic  */}
-                <div className='absolute top-0 right-0 mx-2 my-2 md:mx-4'>
+                <div className='absolute top-0 right-0 mx-2 my-2 md:mx-4 hvr-pulse-shrink'>
                   <svg
                     onClick={(e) => isWishReq(e, item._id, setWlist)}
                     className={`${
