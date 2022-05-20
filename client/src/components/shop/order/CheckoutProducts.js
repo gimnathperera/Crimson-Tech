@@ -180,7 +180,7 @@ const CheckoutProducts = ({ products }) => {
                 className="col-span-1 m-2 md:py-6 md:border-t md:border-b md:my-2 md:mx-0 md:flex md:items-center md:justify-between"
               >
                 <div className="md:flex md:items-center md:space-x-4">
-                  <img
+                  <img loading='lazy'
                     onClick={(e) => history.push(`/products/${product._id}`)}
                     className="cursor-pointer md:h-20 md:w-20 object-cover object-center"
                     src={`${apiURL}/uploads/products/${product.pImages[0]}`}

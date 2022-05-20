@@ -106,7 +106,7 @@ const ProductDetailsSection = (props) => {
       <section className="m-4 md:mx-12 md:my-6">
         <div className="grid grid-cols-2 md:grid-cols-12">
           <div className="hidden md:block md:col-span-1 md:flex md:flex-col md:space-y-4 md:mr-2">
-            <img
+            <img loading='lazy'
               onClick={(e) =>
                 slideImage("increase", 0, count, setCount, pImages)
               }
@@ -116,7 +116,7 @@ const ProductDetailsSection = (props) => {
               src={`${apiURL}/uploads/products/${sProduct.pImages[0]}`}
               alt="pic"
             />
-            <img
+            <img loading='lazy'
               onClick={(e) =>
                 slideImage("increase", 1, count, setCount, pImages)
               }
@@ -129,7 +129,7 @@ const ProductDetailsSection = (props) => {
           </div>
           <div className="col-span-2 md:col-span-7">
             <div className="relative">
-              <img
+              <img loading='lazy'
                 className="w-full"
                 src={`${apiURL}/uploads/products/${sProduct.pImages[count]}`}
                 alt="Pic"

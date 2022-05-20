@@ -52,7 +52,7 @@ const AllReviews = (props) => {
             return (
               <Fragment key={index}>
                 <div className="mb-6 md:mb-8 flex flex-col md:flex-row md:items-start">
-                  <img
+                  <img loading='lazy'
                     className="mx-2 w-16 h-16 rounded-full"
                     src="https://secure.gravatar.com/avatar/676d90a1574e9d3ebf98dd36f7adad60?s=60&d=mm&r=g"
                     alt="pic"

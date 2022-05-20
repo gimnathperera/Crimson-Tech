@@ -32,7 +32,7 @@ const TableBody = ({ order }) => {
           {order.allProduct.map((product, i) => {
             return (
               <span className="block flex items-center space-x-2" key={i}>
-                <img
+                <img loading='lazy'
                   className="w-8 h-8 object-cover object-center"
                   src={`${apiURL}/uploads/products/${product.id.pImages[0]}`}
                   alt="productImage"

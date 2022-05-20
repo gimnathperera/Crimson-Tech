@@ -40,7 +40,7 @@ const AdminNavber = (props) => {
             style={{ letterSpacing: "0.70rem" }}
             className="flex items-left text-center font-bold uppercase text-gray-800 text-2xl cursor-pointer px-2 text-center"
           >
-            Hayroo
+            Crimson Tech
           </span>
         </div>
         {/* Small Screen Show */}
@@ -65,43 +65,13 @@ const AdminNavber = (props) => {
             style={{ letterSpacing: "0.10rem" }}
             className="flex items-left text-center font-bold uppercase text-gray-800 text-2xl cursor-pointer px-2 text-center"
           >
-            Hayroo
+            Crimson Tech
           </span>
         </div>
         {/* Both Screen show */}
         <div className="flex items-center">
-          <div className="hover:bg-gray-200 rounded-lg p-2" title="Search">
-            <svg
-              className="cursor-pointer w-8 h-8 text-gray-600 hover:text-gray-800"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-              />
-            </svg>
-          </div>
-          <div className="hover:bg-gray-200 rounded-lg p-2" title="Search">
-            <svg
-              className="cursor-pointer w-8 h-8 text-gray-600 hover:text-gray-800"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
-            </svg>
-          </div>
+        
+        
           {/* Logout Button Dropdown */}
           <div
             className="userDropdownBtn hover:bg-gray-200 px-2 py-2 rounded-lg relative"

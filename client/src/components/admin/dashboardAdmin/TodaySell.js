@@ -97,7 +97,7 @@ const TodayOrderTable = ({ order }) => {
         <td className="p-2 text-left">
           {order.allProduct.map((item, index) => {
             return (
-              <img
+              <img loading='lazy'
                 key={index}
                 className="w-12 h-12 object-cover"
                 src={`${apiURL}/uploads/products/${item.id.pImages[0]}`}

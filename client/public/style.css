@@ -25625,7 +25625,11 @@ video {
   .sm\:pl-2 {
     padding-left: 0.5rem;
   }
-
+.nav-bar{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
   .sm\:pt-3 {
     padding-top: 0.75rem;
   }

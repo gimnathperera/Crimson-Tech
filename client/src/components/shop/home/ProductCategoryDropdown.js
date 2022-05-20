@@ -41,7 +41,7 @@ const CategoryList = () => {
                   }
                   className="col-span-1 m-2 flex flex-col items-center justify-center space-y-2 cursor-pointer"
                 >
-                  <img
+                  <img loading='lazy'
                     src={`${apiURL}/uploads/categories/${item.cImage}`}
                     alt="pic"
                   />
@@ -54,6 +54,7 @@ const CategoryList = () => {
           <div className="text-xl text-center my-4">No Category</div>
         )}
       </div>
+      <hr />
     </div>
   );
 };

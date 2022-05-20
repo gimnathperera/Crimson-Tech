@@ -48,7 +48,7 @@ mongoose
   })
   .then(() =>
     console.log(
-      "==============Mongodb Database Connected Successfully=============="
+      "Mongodb Connected"
     )
   )
   .catch((err) => console.log("Database Not Connected !!!"));

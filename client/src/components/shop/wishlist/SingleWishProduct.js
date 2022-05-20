@@ -53,7 +53,7 @@ const Product = () => {
                 className="relative m-2 md:py-6 md:border-t md:border-b md:my-2 md:mx-0 col-span-1 md:flex md:items-center md:justify-between"
               >
                 <div className="md:w-1/2 md:flex md:items-center">
-                  <img
+                  <img loading='lazy'
                     onClick={(e) => history.push(`/products/${product._id}`)}
                     className="cursor-pointer md:h-20 md:w-20 object-cover object-center"
                     src={`${apiURL}/uploads/products/${product.pImages[0]}`}
