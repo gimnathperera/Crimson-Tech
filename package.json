@@ -1,22 +1,24 @@
 {
-  "name": "hayroo",
+  "name": "crimson-tech",
   "version": "1.0.0",
-  "description": "A E-commerce website.",
-  "main": "app.js",
+  "description": "An E-commerce website.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon app.js"
+    "start": "nodemon server.js",
+    "install-client": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run install-client && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce"
+    "url": "https://github.com/Gimnath-Perera/Crimson-Tech"
   },
-  "author": "Hasan | https://hasan-py.github.io",
+  "author": "Gimnath | https://github.com/Gimnath-Perera",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce/issues"
   },
-  "homepage": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "braintree": "^3.0.0",
