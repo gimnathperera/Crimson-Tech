@@ -12,9 +12,6 @@
 
 <a href="https://ibb.co/DzGrrVG"><img src="https://i.ibb.co/RYhjjvh/screencapture-crimson-tech-herokuapp-products-6285cb2781be1b2b1832ad81-2022-05-23-23-02-26.png" alt="screencapture-crimson-tech-herokuapp-products-6285cb2781be1b2b1832ad81-2022-05-23-23-02-26" border="0"></a>
 
-<a href="https://ibb.co/BKZCfvT"><img src="https://i.ibb.co/rf6wQq5/screencapture-crimson-tech-herokuapp-products-category-6285b2ef8198310710ca1f7a-2022-05-23-23-01-12.png" alt="screencapture-crimson-tech-herokuapp-products-category-6285b2ef8198310710ca1f7a-2022-05-23-23-01-12" border="0"></a>
-
-
 <a href="https://ibb.co/L0vftSp"><img src="https://i.ibb.co/3TkHN1h/screencapture-crimson-tech-herokuapp-wish-list-2022-05-23-23-00-24.png" alt="screencapture-crimson-tech-herokuapp-wish-list-2022-05-23-23-00-24" border="0"></a>
 
 ## Getting Started
