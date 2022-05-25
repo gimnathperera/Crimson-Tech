@@ -4,7 +4,7 @@
 - email - admin@crimsontech.com<br/>
 - password - admin@123
 
-🚀 Tech Stack - Reactjs | Express| MongoDB | Tailwind | Heroku<br/>
+🚀 Tech Stack - Reactjs | Express | MongoDB | Tailwind | Heroku<br/>
 
 🚀 Working demo - https://crimson-tech.herokuapp.com<br/>
 
