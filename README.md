@@ -1,10 +1,10 @@
 # Project Overview
 
-🚀 Crimson-Tech is an E-Commerece web application for a PC and accessories selling shop. The application contains both admin and client side components. For admin login you can use following credentials;<br/>
+🚀 <b>Crimson-Tech</b> is an E-Commerece web application for a PC and accessories selling shop. The application contains both admin and client side components. For admin login you can use following credentials;<br/>
 - email - admin@crimsontech.com<br/>
 - password - admin@123
 
-🚀 Tech Stack - Reactjs, Express, MongoDB<br/>
+🚀 Tech Stack - Reactjs | Express| MongoDB | Tailwind | Heroku<br/>
 
 🚀 Working demo - https://crimson-tech.herokuapp.com<br/>
 
